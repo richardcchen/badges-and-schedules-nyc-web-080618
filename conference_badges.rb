@@ -1,4 +1,8 @@
 # Write your code here.
 def batch_badge_creator(array)
-  array.each
+  counter = 0
+  array.each do |i|
+    newarray[counter] = "Hello, my name is #{i}."
+    counter += 1
+newarray
 end
