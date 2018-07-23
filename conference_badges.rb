@@ -6,7 +6,8 @@ end
 def batch_badge_creator(array)
   counter = 0
   array.each do |i|
-    newarray[counter] = badge_maker(i)
+    badge = badge_maker(i)
+    newarray[counter] = badge
     counter += 1
   end
 newarray
