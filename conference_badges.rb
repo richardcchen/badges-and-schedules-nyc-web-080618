@@ -1,5 +1,7 @@
 # Write your code here.
-
+def conference_badges(array)
+  
+end
 
 
 def batch_badge_creator(array)
