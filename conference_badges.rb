@@ -22,6 +22,5 @@ def assign_rooms(array)
     newarray[counter] = "Hello, #{i}! You'll be assigned to room #{rooms[counter]}!"
     counter += 1
   end
-    
-  
+  newarray
 end
