@@ -8,7 +8,7 @@ def batch_badge_creator(array)
   newarray = []
   array.each do |i|
     badge = badge_maker(i)
-    newarray[counter] = badge
+    newarray.push(badge)
     counter += 1
   end
 newarray
